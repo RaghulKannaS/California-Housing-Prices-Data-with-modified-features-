@@ -21,12 +21,12 @@ This data was entirely modified and cleaned by me. The original data (without th
 The original dataset can be found under the following link: https://www.dcc.fc.up.pt/~ltorgo/Regression/cal_housing.html
 
 # Limitations:
-R2_score for the Final Model (VotingRegressor) is 81.63% which is not an exceptional model to consider.
-RMSE value for the Final Model is comparitively low, but the value itself (49,442$) has major significance while prediction.
-Since, we choose the Non-Parametric Models (KNN,RandomForest,GradientBoosting,XGB) in VotingRegressor, the interpretations for each features with respect to target are very difficult.
-We didn't treat any Outliers and Multi-Collinearity issues present in the dataset, as it leads to data loss and explainability of the model.
+* R2_score for the Final Model (VotingRegressor) is 81.63% which is not an exceptional model to consider.
+* RMSE value for the Final Model is comparitively low, but the value itself (49,442$) has major significance while prediction.
+* Since, we choose the Non-Parametric Models (KNN,RandomForest,GradientBoosting,XGB) in VotingRegressor, the interpretations for each features with respect to target are very difficult.
+* We didn't treat any Outliers and Multi-Collinearity issues present in the dataset, as it leads to data loss and explainability of the model.
 
 # Conclusion:
-We tried 7 Models and selected the 'Voting Regressor' as the final model with 81.63% R2_score.
-We made Accumulated Local Effects (ALE) Plot to interpret the Independent features with respect to the target.
-We made Business Interpretations along with the limitations of the final model.
+* We tried 7 Models and selected the 'Voting Regressor' as the final model with 81.63% R2_score.
+* We made Accumulated Local Effects (ALE) Plot to interpret the Independent features with respect to the target.
+* We made Business Interpretations along with the limitations of the final model.
